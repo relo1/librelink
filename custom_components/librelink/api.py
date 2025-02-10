@@ -47,6 +47,7 @@ class LibreLinkApiClient:
                 "product": PRODUCT,
                 "version": VERSION_APP,
                 "Application": APPLICATION,
+                "account-id":'',
                 "Authorization": "Bearer " + self._token,
             },
             data={},
